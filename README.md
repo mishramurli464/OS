@@ -99,15 +99,19 @@ their execution once the main memory gets available and their wait is finished.
 
 
 ## Types of CPU Scheduling Algorithms 
-1)First Come First Serve
+1)First Come First Serve  
   in the First Come First Serve CPU Scheduling Algorithm, the CPU allots the resources to the process in a certain serial  rder.The CPU is allotted to the process in which it has occurred.  
-2)Shortest Job First
+  
+2)Shortest Job First  
 Here, in this Shortest Job First CPU Scheduling Algorithm, the CPU allots its resources to the process which is in ready queue and the process which has least Burst Time.  
-3)Priority Scheduling
+
+3)Priority Scheduling  
 The Priority CPU Scheduling is different from the remaining CPU Scheduling Algorithms. Here, each and every process has a certain Priority number. and the cpu allots resources to process   
 accoring to its priority no1.  
+
 4)Round Robin Scheduling   
 Round Robin is a CPU scheduling mechanism those cycles around assigning each task a specific time slot. The Round Robin CPU algorithm frequently emphasizes the Time-Sharing method.  
+
 
 
 
