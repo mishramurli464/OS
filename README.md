@@ -89,7 +89,6 @@ be terminated by the Operating system.
 
 7. Suspend ready  
 A process in the ready state, which is moved to secondary memory from the main memory due to lack of the resources (mainly primary memory) is called in the suspend ready state  
-
 If the main memory is full and a higher priority process comes for the execution then the OS have to make the room for the process in the main memory by throwing the lower  
 priority process out into the secondary memory. The suspend ready processes remain in the secondary memory until the main memory gets available.   
 
