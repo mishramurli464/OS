@@ -21,3 +21,56 @@ A single-thread process means that a process could only perform a task one at a 
 Of course multi-threads are more efficient, but it also brings some side effects that single thread wouldn’t encounter, such as deadlock and concurrency.  
 
 
+## Multiprogramming vs Multiprocessing vs Multitasking vs Multithreading   
+
+## Multiprogramming   
+"The concurrent residency of more than one program in the main memory is referred as multiprogramming."  
+Since multiple programs are resident in the memory, as soon as the currently executing program finishes its execution, the next program is dispatched for its consumption. 
+Also if the currently executing program asks for input output resources then meanwhile another program is dispatched to the CPU for execution.  
+The main objective of multiprogramming is:  
+Maximum CPU utilization.
+Efficient management of the main memory.
+
+Multiprogramming can be virtually shown as:
+![image](https://github.com/mishramurli464/OS/assets/128781536/eeeb067a-ab33-4972-880b-090ed636e7e5)  
+
+##  Multiprocessing  
+When one system is connected to more than one processor which collectively work for the completion of the task, it is called as multiprocessing systems.  
+Multiprocessing systems can be divided in two types:  
+Symmetric Multiprocessing: The operating system here resides on one processor and the other processors run user's programs.  
+Asymmetric Multiprocessing: The OS runs on any available processor or all the processor simultaneously run the user program.  
+
+Multiprocessing systems can be virtually represented as:  
+![image](https://github.com/mishramurli464/OS/assets/128781536/a70df4b0-b368-42bc-a6f8-f58600d85011)  
+
+
+## Multithreading  
+"Multithreading is a conceptual programming paradigm where a process is divided into a number of sub-processes called as threads. Each thread is independent and  
+has its own path of execution with enabled inter thread communication."  
+"Thread is the path followed while executing a program. Each thread has its own program counter, stack and register."  
+A thread is a light weight process.  
+
+It can be virtually represented as:  
+![image](https://github.com/mishramurli464/OS/assets/128781536/4fa0b580-9aa5-4d2d-9f35-13756ecba95e)  
+
+## Multitasking  
+Earlier when computers were invented, a user was allowed to submit only job or task at a time. But later with availability of high-speed processor, one can submit  
+more than one task.  
+So the capability of OS to accept more the one task per user is termed as multitasking.  
+Multiple jobs are executed by the CPU simultaneously by switching between them.  
+The various job can be accepted from same user or different users. There are 2 types of multitasking systems:  
+Single User Multitasking  
+Multi User multitasking  
+
+It can be virtually represented as:  
+![image](https://github.com/mishramurli464/OS/assets/128781536/4935604c-d00a-4e67-a518-7d0485181c38)
+
+
+
+
+
+
+
+
+
+
